@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Style+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+    <div class="musicIcon">
+        <img src="https://static.vecteezy.com/system/resources/previews/009/428/325/non_2x/3d-social-media-icons-music-free-png.png" alt="Music Icon" width="200" id="musicIcon">
+    </div>
+    <div class="songsContainer">
+        <audio src="" id="audio"></audio>
+        <h1 id="songName"></h1>
+        <h3 id="artistName"></h3>
+        
+
+        <div class="playButtons">
+            <span>
+                <i class="fa-solid fa-backward" id="backPlay"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward" id="frontPlay"></i>
+            </span>
+        </div>
+        <input type="range" id="myProgressBar" >
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

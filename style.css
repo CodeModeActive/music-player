@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.V8U-bv22uPzOVdOZDgG0GwHaEp?pid=Api&P=0&h=220);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: pink;
+    border-radius: 20px;
+    padding-right: 70px;
+}
+.playButtons .fa-solid {
+   font-size: 25px; 
+}
+#myProgressBar {
+    margin-top: 20px;
+    width: 100%;
+}
+.songsContainer{
+    font-family: 'Poppins';
+    color: purple;
+    text-align: center;
+}
